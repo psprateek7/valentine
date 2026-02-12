@@ -45,13 +45,13 @@ body{
 
 .card{
   position:relative;
-  width:min(720px, 92vw);
-  padding:44px 40px;
+  width:min(740px, 92vw);
+  padding:48px 42px;
   border-radius:var(--radius);
-  background: linear-gradient(180deg, rgba(15,22,40,.86), rgba(15,22,40,.62));
-  border: 1px solid var(--stroke);
+  background: linear-gradient(180deg, rgba(18,15,30,.88), rgba(18,15,30,.62));
+  border: 1px solid rgba(255,255,255,.10);
   box-shadow: var(--shadow);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);
   overflow:hidden;
 }
 
