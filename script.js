@@ -181,3 +181,7 @@ replayBtn.addEventListener("click", () => {
   lastMove = { x: 0, y: 0 };
   noBtn.style.transform = "translate(0px, 0px)";
 });
+
+document.querySelectorAll(".idea-card").forEach(card => {
+  card.addEventListener("click", () => card.classList.toggle("is-selected"));
+});
