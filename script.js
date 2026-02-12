@@ -27,10 +27,10 @@ function moveNoButton() {
   const zoneRect = noZone.getBoundingClientRect();
 
   // Movement bounds relative to initial (0,0)
-  const maxX = 220;
-  const minX = -90;
-  const maxY = 120;
-  const minY = -90;
+  const maxX = 190;
+  const minX = -70;
+  const maxY = 90;
+  const minY = -70;
 
   // Pick a new target far enough from last to feel like it "escapes"
   let x, y, tries = 0;
@@ -77,7 +77,7 @@ function resize() {
 window.addEventListener("resize", resize);
 resize();
 
-const palette = ["#ff4d7d", "#7c5cff", "#ffd166", "#06d6a0", "#f6f3ee"];
+const palette = ["#ff3d6e", "#b58cff", "#ffd1dc", "#ffe6b3", "#fbf7f2"];
 let particles = [];
 let animId = null;
 
