@@ -44,6 +44,51 @@
       <h1 class="headline">love you! 🎉</h1>
       <p class="subhead">YYay! It’s a date. 🥂</p>
 
+      Yep — easy, and we can keep it classy.
+
+Below are exact copy/paste changes for your existing setup (same single-page “view switch” approach).
+
+1) Update index.html (add the section + 3 boxes in the Thanks view)
+
+Find your thanksView section and replace it with this (or just replace the inside of thanksView):
+
+<section id="thanksView" class="card is-hidden" aria-live="polite">
+  <div class="glow" aria-hidden="true"></div>
+
+  <h1 class="headline">Yay! It’s a date. 🥂</h1>
+  <p class="subhead">Thank you, Sakshi — you make everything feel brighter.</p>
+
+  <div class="ideas">
+    <h2 class="ideas-title">What would you like to do babes?</h2>
+    <p class="ideas-sub">You can always pick more than one 😉</p>
+
+    <div class="idea-grid">
+      <button class="idea-card" type="button">
+        <span class="idea-emoji">🥐</span>
+        <span class="idea-text">
+          <span class="idea-name">Brunch at Grizzly</span>
+          <span class="idea-note">Coffee, sandwich, and unreasonably good vibes.</span>
+        </span>
+      </button>
+
+      <button class="idea-card" type="button">
+        <span class="idea-emoji">🥣</span>
+        <span class="idea-text">
+          <span class="idea-name">Some hot bowl of porridge</span>
+          <span class="idea-note">Cozy, calm, and very us.</span>
+        </span>
+      </button>
+
+      <button class="idea-card" type="button">
+        <span class="idea-emoji">🎬</span>
+        <span class="idea-text">
+          <span class="idea-name">Movie night — “O Romeo”</span>
+          <span class="idea-note">Hoyts, snacks(may be 😉), and a little drama (the good kind).</span>
+        </span>
+      </button>
+    </div>
+  </div>
+  
       <div class="actions">
         <button id="replayBtn" class="btn btn-ghost" type="button">
           Replay ✨
