@@ -1,14 +1,14 @@
 :root{
-  --bg1:#0b0f1a;
-  --bg2:#111a2e;
-  --card:#0f1628cc;
+  --bg1:#07060a;          /* deep midnight */
+  --bg2:#141022;          /* plum navy */
+  --card:#120f1ecc;       /* romantic glass */
   --stroke:#ffffff1a;
-  --text:#f6f3ee;
-  --muted:#c8c2b8cc;
-  --accent:#ff4d7d;
-  --accent2:#7c5cff;
-  --shadow: 0 24px 80px rgba(0,0,0,.45);
-  --radius: 22px;
+  --text:#fbf7f2;         /* warm ivory */
+  --muted:#e9dfd2b3;      /* soft champagne */
+  --accent:#ff3d6e;       /* rose */
+  --accent2:#b58cff;      /* lavender */
+  --shadow: 0 26px 90px rgba(0,0,0,.5);
+  --radius: 24px;
 }
 
 *{ box-sizing:border-box; }
