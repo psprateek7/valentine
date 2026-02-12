@@ -22,6 +22,7 @@ function clamp(v, min, max) {
 }
 
 function moveNoButton() {
+  noBtn.classList.add("is-dodging");
   // Allow it to move within a larger invisible range to feel more playful,
   // but still keep it classy (not teleporting across the whole screen).
   const zoneRect = noZone.getBoundingClientRect();
