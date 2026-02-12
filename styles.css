@@ -134,17 +134,23 @@ body{
 
 /* No button playground for smooth repositioning */
 .no-zone{
-  position:relative;
-  width: 160px;
-  height: 54px;
+  position: relative;
+  width: auto;     /* let it size naturally */
+  height: auto;
 }
 
 #noBtn{
-  position:absolute;
-  left: 0px;
-  top: 0px;
-  transition: transform .28s cubic-bezier(.2,.9,.2,1), filter .18s ease;
+  position: relative;          /* normal flow initially */
+  transition:
+    transform .28s cubic-bezier(.2,.9,.2,1),
+    filter .18s ease;
   will-change: transform;
+}
+
+#noBtn.is-dodging{
+  position: absolute;          /* free to move when dodging */
+  left: 0;
+  top: 0;
 }
 
 .hint{
